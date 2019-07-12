@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
 ###import_data
-titanic_data = pd.read_csv("Train_2.csv")
+titanic_data = pd.read_csv("train.csv")
 titanic_data.head(10)
 
 print("# of passengers in the original data: "+str(len(titanic_data.index)))
